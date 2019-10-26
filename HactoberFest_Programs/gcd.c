@@ -1,6 +1,11 @@
 #include<stdio.h>
 int gcd(int a,int b){
 	//Write code here
+	if(num1!=num2){
+		a=a+b;
+		b=a-b;
+		a=a-b;
+	}
 }
 int main(){
 	int num1,num2,res=0;
