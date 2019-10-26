@@ -6,7 +6,7 @@ int main(){
 		if(i<50)
 			arr[i]=i;
 		else
-			arr[i]=100-i/2;
+			arr[i]=100+i/2;
 	}
 	printf("The array is: \n");
 	for(i=0;i<100;i++){
