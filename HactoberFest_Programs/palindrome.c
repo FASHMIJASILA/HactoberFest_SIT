@@ -8,7 +8,6 @@ int main(){
 		i++;
 	}
 	len=i;
-	i=0;
 	j=len-1;
 	while(i<=len/2){
 		if(str[i]==str[j]){
@@ -18,9 +17,11 @@ int main(){
 		else
 			break;
 	}
-	if(i>j){
+	
+	if(i>=j){
 		printf("\nPalindrome");
-	}else{
+	}
+	else{
 		printf("\nNot Palindrome");
 	}
 	return 0;
