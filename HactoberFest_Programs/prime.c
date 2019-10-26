@@ -11,9 +11,13 @@ int main(){
 			flag=1;
 			continue;
 		}
+		else{
+			 flag=0;
+			  break;
+		}
 		for(i=2;i<num/2;i++){
 			if(num%i==0){
-				flag=1;
+		                flag=1;
 				break;
 			}
 		}
