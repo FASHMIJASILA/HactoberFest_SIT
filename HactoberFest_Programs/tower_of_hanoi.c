@@ -6,7 +6,7 @@ void move(int n,char src,char dest,char spare){
 	}
 	else{
 		move(n-1,src,spare,dest);
-		move(1,src,dest,spare);
+		move(n-1,src,dest,spare);
 		move(n-1,spare,dest,src);
 	}
 }
