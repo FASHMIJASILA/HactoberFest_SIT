@@ -4,9 +4,9 @@
 void reverse(char *str,int begin, int i){
 	char temp;
 	while(begin<i){
-		temp=str[begin];
-		str[begin]=str[i];
-		str[i]=temp;
+		temp=str[i]%10;
+		str[begin]=str[begin]*str[i];
+		str[i]=/10;
 		i--;
 		begin++;
 	}
